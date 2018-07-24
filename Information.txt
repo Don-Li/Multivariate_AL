@@ -1,0 +1,31 @@
+# Base AL model
+# These are inside the 'base AL' file
+
+AL.do_rapidly_changing_fitting.R contains code for pretraining and simulating the experiment for the basic AL model.
+
+AL_fit_PSO.R contains code for fitting the base AL model with particle swarm optimisation (PSO).
+
+AL_new_helper_fitting.R contains helper functions for the base AL model.
+
+pso_helper.R contains functions for PSO.
+
+# Extended AL model
+# These are inside the 'extended AL' file
+
+AL.do_rapidly_changing_bout_prp_learn_test2 contains code for pretraining and simulating the experiment for the extended AL model.
+
+AL_fit_PSO_bouts_prp_learn2.R contains code for fitting the extended AL model with PSO.
+
+AL_new_helper_bout_test2.R contains helper functions for the extended AL model.
+
+pso_helper_bouts_prp_learn contains functions for PSO.
+
+# Helper functions
+
+data_summary_fitting.R contains functions for computing the summary statistics for model fitting.
+
+
+# Notes
+
+May have to rearrange the directories (i.e., put all the files in the same folder).
+Users will need to request the data. I cannot upload all the data to github.
